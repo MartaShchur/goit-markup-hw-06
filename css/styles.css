@@ -517,6 +517,28 @@ p{
     fill: var(--footer-text-color);
 }
 
+/* Subscribe */
+
+.subscribe-page{
+    margin: 80px;
+}
+
+.subscribe-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--light-text-color);
+    margin-bottom: 16px; 
+}
+
+label{
+
+}
+
+input{
+    
+}
 
 /**
   |============================
