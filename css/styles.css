@@ -533,10 +533,11 @@ p{
     margin-bottom: 16px; 
 }
 
-/* .footer-form{
-    position: relative;
-    display: block;
-} */
+.footer-form{
+    display: flex;
+    text-align: center;
+    gap: 24px;
+}
 
 .subscribe-form-wrapper{
     box-sizing: border-box;
@@ -544,9 +545,9 @@ p{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     display: flex;
-    /* align-items: center;
+    align-items: center;
     justify-content: center;
-  */
+ 
 }
 
 .subscribe-form-input{
@@ -571,7 +572,6 @@ p{
 }
 
 .subscribe-form-btn{
-    position: absolute;
     display: flex;
     justify-content: row;
     align-items: center;
