@@ -433,6 +433,7 @@ p{
 .footer-page {
     display: flex;
     align-items: baseline;
+
 }
 
 .footer-content{
@@ -442,6 +443,8 @@ p{
 .footer{
     background-color:var(--dark-bg-color);
     padding: 100px 0 100px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .link{
@@ -520,8 +523,7 @@ p{
 /* Subscribe */
 
 .subscribe-wrapper{
-    position: relative;
-    margin: 80px;
+  margin-left: 83px;
 }
 
 .subscribe-text{
@@ -530,7 +532,7 @@ p{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--light-text-color);
-    margin-bottom: 16px; 
+    margin-bottom: 16px;
 }
 
 .footer-form{
@@ -540,20 +542,19 @@ p{
 }
 
 .subscribe-form-wrapper{
-    box-sizing: border-box;
     border: 1px solid #FFFFFF;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     display: flex;
     align-items: center;
-    justify-content: center;
  
 }
 
 .subscribe-form-input{
     width: 264px;
     height: 40px;
-    background-color: var(--dark-bg-color) ;
+    background-color: var(--dark-bg-color);
+    flex-direction: row;
 }
 
 .subscribe-form-input::placeholder{
@@ -581,8 +582,14 @@ p{
     border-radius: 4px;
     color: var(--light-text-color);
     fill: #ffffff;
-   
+    flex-direction: row; 
 }
+
+.subscribe-form-btn:hover,
+.subscribe-form-btn:focus{
+    background-color: #404BBF;
+}
+
 
 /**
   |============================
