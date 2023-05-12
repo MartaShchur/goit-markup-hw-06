@@ -547,7 +547,6 @@ p{
     border-radius: 4px;
     display: flex;
     align-items: center;
- 
 }
 
 .subscribe-form-input{
@@ -568,8 +567,7 @@ p{
     width: 36px;
     height: 24px;
     padding-left: 16px;
-    padding-top: 8px;
-    
+    padding-top: 8px; 
 }
 
 .subscribe-form-btn{
@@ -662,6 +660,63 @@ p{
     transition: fill 250ms 
     cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+/* Modal Page Forms */
+
+.modal-title{
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.02em;
+color:var(--dark-bg-color);
+padding-top: 72px;
+}
+
+.modal-form{
+   
+}
+
+.inputs-field{
+    display: flex;
+    flex-direction: column;
+    padding:16px 24px;
+    /* gap: 8px; */
+    border-radius: 4px;
+    width: 360px;
+    align-items: flex-start;
+}
+
+.form-label {
+    padding: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    color: var(--color-icon);
+}
+
+.form-wrapper{
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+ 
+}
+
+.form-field{
+    border: 1px solid #4D5AE5;
+    border-radius: 4px;
+    width: 360px;
+    height: 58px;
+
+
+
+}
+
+
+
+
 
 
 /**
